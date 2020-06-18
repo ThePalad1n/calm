@@ -3,8 +3,32 @@
     box-sizing: boarder-box;
 }
 
-body {
+#a {
     background: #224941 url('https://images.unsplash.com/photo-1559825481-12a05cc00344?ixlib=rb-1.2.1&w=1000&q=80') no-repeat center center/cover;
+    color: aliceblue;
+    font-family: 'Merienda', sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#b {
+    background: #224941 url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1440&q=80') no-repeat center center/cover;
+    color: aliceblue;
+    font-family: 'Merienda', sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#c {
+    background: #224941 url('https://images.unsplash.com/photo-1592114036194-a2a88e271d8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover;
     color: aliceblue;
     font-family: 'Merienda', sans-serif;
     min-height: 100vh;
@@ -26,7 +50,7 @@ body {
     transform: scale(1);
 }
 
-.gradient-circle {
+#gradient-circleA {
     background: conic-gradient( #55b7a4 0%, #4ca493 40%, #fff 40%, #fff 60%, #336d62 60%, #2a5b52 100%);
     height: 320px;
     width: 320px;
@@ -37,7 +61,51 @@ body {
     border-radius: 50%;
 }
 
-.circle {
+#gradient-circleB {
+    background: conic-gradient( #55b7a4 0%, #4ca493 40%, #fff 40%, #fff 60%, #336d62 60%, #2a5b52 100%);
+    height: 320px;
+    width: 320px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -2;
+    border-radius: 50%;
+}
+
+#gradient-circleC {
+    background: conic-gradient( #55b7a4 0%, #4ca493 40%, #fff 40%, #fff 60%, #336d62 60%, #2a5b52 100%);
+    height: 320px;
+    width: 320px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -2;
+    border-radius: 50%;
+}
+
+#circleA {
+    background-color: #010f1c;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+#circleB {
+    background-color: #010f1c;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+#circleC {
     background-color: #010f1c;
     height: 100%;
     width: 100%;
@@ -58,7 +126,23 @@ body {
     transform-origin: bottom center;
 }
 
-.pointer {
+#pointerA {
+    background-color: aliceblue;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+#pointerB {
+    background-color: aliceblue;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+#pointerC {
     background-color: aliceblue;
     border-radius: 50%;
     height: 20px;
