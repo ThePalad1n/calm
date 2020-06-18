@@ -16,8 +16,8 @@
 }
 
 #b {
-    background: #224941 url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1440&q=80') no-repeat center center/cover;
-    color: aliceblue;
+    background: rgb(0, 75, 12) url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1440&q=80') no-repeat center center/cover;
+    color: rgb(0, 136, 23);
     font-family: 'Merienda', sans-serif;
     min-height: 100vh;
     overflow: hidden;
@@ -62,7 +62,7 @@
 }
 
 #gradient-circleB {
-    background: conic-gradient( #55b7a4 0%, #4ca493 40%, #fff 40%, #fff 60%, #336d62 60%, #2a5b52 100%);
+    background: conic-gradient( #58b755 0%, #4ca45f 40%, rgb(139, 139, 139) 40%, rgb(139, 139, 139) 60%, #336d40 60%, #2a5b35 100%);
     height: 320px;
     width: 320px;
     position: absolute;
@@ -95,7 +95,7 @@
 }
 
 #circleB {
-    background-color: #010f1c;
+    background-color: #011c0b;
     height: 100%;
     width: 100%;
     position: absolute;
