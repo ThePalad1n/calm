@@ -12,8 +12,8 @@
     .square {
         float: left;
         position: relative;
-        width: 40%;
-        padding-bottom: 30%;
+        width: 20%;
+        padding-bottom: 20%;
         /* = width for a 1:1 aspect ratio */
         margin: 1.66%;
         overflow: hidden;
@@ -21,11 +21,18 @@
     
     .content {
         position: absolute;
-        height: 80%;
+        height: 90%;
         /* = 100% - 2*10% padding */
         width: 90%;
         /* = 100% - 2*5% padding */
         padding: 10% 5%;
+    }
+    
+    .content .rs {
+        width: 150px;
+        height: 150px;
+        max-height: 90%;
+        max-width: 100%;
     }
 </style>
 
@@ -36,21 +43,25 @@
 
         <div class="square">
             <div class="content">
+                <img class="rs" src='https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1440&q=80' />
                 <p>Nature</p>
             </div>
         </div>
         <div class="square">
             <div class="content">
+                <img class="rs" src="https://images.unsplash.com/photo-1559825481-12a05cc00344?ixlib=rb-1.2.1&w=1000&q=80" />
                 <p>Aqua</p>
             </div>
         </div>
         <div class="square">
             <div class="content">
+                <img class="rs" src='https://images.unsplash.com/photo-1553949345-eb786bb3f7ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80' />
                 <p>Lava</p>
             </div>
         </div>
         <div class="square">
             <div class="content">
+                <img class="rs" src='https://images.unsplash.com/photo-1502581827181-9cf3c3ee0106?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=721&q=80' />
                 <p>Space</p>
             </div>
         </div>
